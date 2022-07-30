@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D5C7F7401C3BC9CE008CDDBA /* SwiftPackageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPackageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C7F7401C3BC9CE008CDDBA /* damus.swiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = damus.swiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C7F74D1C3BC9CE008CDDBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5C7F74F1C3BC9CE008CDDBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5C7F7571C3BCA1E008CDDBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 		D5C7F7371C3BC9CE008CDDBA = {
 			isa = PBXGroup;
 			children = (
-				D5C7F7421C3BC9CE008CDDBA /* SwiftPackageDemo */,
+				D5C7F7421C3BC9CE008CDDBA /* damus.swiftDemo */,
 				D5C7F7411C3BC9CE008CDDBA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,19 +44,19 @@
 		D5C7F7411C3BC9CE008CDDBA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D5C7F7401C3BC9CE008CDDBA /* SwiftPackageDemo.app */,
+				D5C7F7401C3BC9CE008CDDBA /* damus.swiftDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D5C7F7421C3BC9CE008CDDBA /* SwiftPackageDemo */ = {
+		D5C7F7421C3BC9CE008CDDBA /* damus.swiftDemo */ = {
 			isa = PBXGroup;
 			children = (
 				D5C7F7561C3BCA1E008CDDBA /* Resources */,
 				D5C7F7581C3BCA1E008CDDBA /* Sources */,
 				D5C7F7551C3BC9EA008CDDBA /* Supporting Files */,
 			);
-			path = SwiftPackageDemo;
+			path = damus.swiftDemo;
 			sourceTree = "<group>";
 		};
 		D5C7F7551C3BC9EA008CDDBA /* Supporting Files */ = {
@@ -88,9 +88,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D5C7F73F1C3BC9CE008CDDBA /* SwiftPackageDemo */ = {
+		D5C7F73F1C3BC9CE008CDDBA /* damus.swiftDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5C7F7521C3BC9CE008CDDBA /* Build configuration list for PBXNativeTarget "SwiftPackageDemo" */;
+			buildConfigurationList = D5C7F7521C3BC9CE008CDDBA /* Build configuration list for PBXNativeTarget "damus.swiftDemo" */;
 			buildPhases = (
 				D5C7F73C1C3BC9CE008CDDBA /* Sources */,
 				D5C7F73D1C3BC9CE008CDDBA /* Frameworks */,
@@ -100,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftPackageDemo;
-			productName = SwiftPackageDemo;
-			productReference = D5C7F7401C3BC9CE008CDDBA /* SwiftPackageDemo.app */;
+			name = damus.swiftDemo;
+			productName = damus.swiftDemo;
+			productReference = D5C7F7401C3BC9CE008CDDBA /* damus.swiftDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -121,7 +121,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D5C7F73B1C3BC9CE008CDDBA /* Build configuration list for PBXProject "SwiftPackageDemo" */;
+			buildConfigurationList = D5C7F73B1C3BC9CE008CDDBA /* Build configuration list for PBXProject "damus.swiftDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -134,7 +134,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D5C7F73F1C3BC9CE008CDDBA /* SwiftPackageDemo */,
+				D5C7F73F1C3BC9CE008CDDBA /* damus.swiftDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -279,9 +279,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftPackageDemo/Info.plist;
+				INFOPLIST_FILE = damus.swiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = BundleDomain.SwiftPackageDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = app.vinux.damus.damus.swiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -290,9 +290,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftPackageDemo/Info.plist;
+				INFOPLIST_FILE = damus.swiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = BundleDomain.SwiftPackageDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = app.vinux.damus.damus.swiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -300,7 +300,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D5C7F73B1C3BC9CE008CDDBA /* Build configuration list for PBXProject "SwiftPackageDemo" */ = {
+		D5C7F73B1C3BC9CE008CDDBA /* Build configuration list for PBXProject "damus.swiftDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5C7F7501C3BC9CE008CDDBA /* Debug */,
@@ -309,7 +309,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5C7F7521C3BC9CE008CDDBA /* Build configuration list for PBXNativeTarget "SwiftPackageDemo" */ = {
+		D5C7F7521C3BC9CE008CDDBA /* Build configuration list for PBXNativeTarget "damus.swiftDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5C7F7531C3BC9CE008CDDBA /* Debug */,

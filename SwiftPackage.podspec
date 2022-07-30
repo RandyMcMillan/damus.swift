@@ -1,15 +1,15 @@
 Pod::Spec.new do |s|
-  s.name             = "<PACKAGENAME>"
-  s.summary          = "A short description of <PACKAGENAME>."
+  s.name             = "damus.swift"
+  s.summary          = "A short description of damus.swift."
   s.version          = "0.1.0"
-  s.homepage         = "https://github.com/<USERNAME>/<PACKAGENAME>"
+  s.homepage         = "https://github.com/randymcmillan/damus.swift"
   s.license          = 'MIT'
-  s.author           = { "<AUTHOR_NAME>" => "<AUTHOR_EMAIL>" }
+  s.author           = { "randymcmillan" => "randy.lee.mcmillan@gmail.com" }
   s.source           = {
-    :git => "https://github.com/<USERNAME>/<PACKAGENAME>.git",
+    :git => "https://github.com/randymcmillan/damus.swift.git",
     :tag => s.version.to_s
   }
-  s.social_media_url = 'https://twitter.com/<USERNAME>'
+  s.social_media_url = 'https://twitter.com/randymcmillan'
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.9'

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D5C6293F1C3A7FAA007F7B7C"
-               BuildableName = "SwiftPackage.framework"
-               BlueprintName = "SwiftPackage-macOS"
-               ReferencedContainer = "container:SwiftPackage.xcodeproj">
+               BuildableName = "damus.swift.framework"
+               BlueprintName = "damus.swift-macOS"
+               ReferencedContainer = "container:damus.swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,9 +48,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D5C6293F1C3A7FAA007F7B7C"
-            BuildableName = "SwiftPackage.framework"
-            BlueprintName = "SwiftPackage-macOS"
-            ReferencedContainer = "container:SwiftPackage.xcodeproj">
+            BuildableName = "damus.swift.framework"
+            BlueprintName = "damus.swift-macOS"
+            ReferencedContainer = "container:damus.swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D5C6293F1C3A7FAA007F7B7C"
-            BuildableName = "SwiftPackage.framework"
-            BlueprintName = "SwiftPackage-macOS"
-            ReferencedContainer = "container:SwiftPackage.xcodeproj">
+            BuildableName = "damus.swift.framework"
+            BlueprintName = "damus.swift-macOS"
+            ReferencedContainer = "container:damus.swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

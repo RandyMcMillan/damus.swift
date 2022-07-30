@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D284B0F61F79024300D94AF3 /* macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B0F51F79024300D94AF3 /* macOS.swift */; };
-		D284B1051F79038B00D94AF3 /* SwiftPackage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D284B0FC1F79038B00D94AF3 /* SwiftPackage.framework */; };
+		D284B1051F79038B00D94AF3 /* damus.swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D284B0FC1F79038B00D94AF3 /* damus.swift.framework */; };
 		D284B1231F79041C00D94AF3 /* tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B1221F79041C00D94AF3 /* tvOS.swift */; };
 		D284B1251F79042800D94AF3 /* watchOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B1241F79042800D94AF3 /* watchOS.swift */; };
 		D284B1381F7906DB00D94AF3 /* Info-iOS-Tests.plist in Resources */ = {isa = PBXBuildFile; fileRef = D284B12F1F7906DA00D94AF3 /* Info-iOS-Tests.plist */; };
@@ -22,8 +22,8 @@
 		D284B1481F7908BB00D94AF3 /* macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B12E1F7906DA00D94AF3 /* macOSTests.swift */; };
 		D284B1491F790CA200D94AF3 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629861C3A89A8007F7B7C /* Shared.swift */; };
 		D284B14A1F790CA200D94AF3 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629861C3A89A8007F7B7C /* Shared.swift */; };
-		D5B2E8AA1C3A780C00C0327D /* SwiftPackage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* SwiftPackage.framework */; };
-		D5C6294A1C3A7FAA007F7B7C /* SwiftPackage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* SwiftPackage.framework */; };
+		D5B2E8AA1C3A780C00C0327D /* damus.swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* damus.swift.framework */; };
+		D5C6294A1C3A7FAA007F7B7C /* damus.swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* damus.swift.framework */; };
 		D5C629831C3A892A007F7B7C /* iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629821C3A892A007F7B7C /* iOS.swift */; };
 		D5C629871C3A89A8007F7B7C /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629861C3A89A8007F7B7C /* Shared.swift */; };
 		D5C629881C3A89A8007F7B7C /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629861C3A89A8007F7B7C /* Shared.swift */; };
@@ -35,29 +35,29 @@
 			containerPortal = D5B2E8961C3A780C00C0327D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D284B0FB1F79038B00D94AF3;
-			remoteInfo = "SwiftPackage-tvOS";
+			remoteInfo = "damus.swift-tvOS";
 		};
 		D5B2E8AB1C3A780C00C0327D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D5B2E8961C3A780C00C0327D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D5B2E89E1C3A780C00C0327D;
-			remoteInfo = SwiftPackage;
+			remoteInfo = damus.swift;
 		};
 		D5C6294B1C3A7FAA007F7B7C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D5B2E8961C3A780C00C0327D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D5C6293F1C3A7FAA007F7B7C;
-			remoteInfo = "SwiftPackage-Mac";
+			remoteInfo = "damus.swift-Mac";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D284B0F51F79024300D94AF3 /* macOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = macOS.swift; sourceTree = "<group>"; };
-		D284B0FC1F79038B00D94AF3 /* SwiftPackage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftPackage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D284B1041F79038B00D94AF3 /* SwiftPackage-tvOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftPackage-tvOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D284B1181F79039F00D94AF3 /* SwiftPackage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftPackage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D284B0FC1F79038B00D94AF3 /* damus.swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = damus.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D284B1041F79038B00D94AF3 /* damus.swift-tvOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "damus.swift-tvOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D284B1181F79039F00D94AF3 /* damus.swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = damus.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D284B1221F79041C00D94AF3 /* tvOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvOS.swift; sourceTree = "<group>"; };
 		D284B1241F79042800D94AF3 /* watchOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchOS.swift; sourceTree = "<group>"; };
 		D284B12E1F7906DA00D94AF3 /* macOSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = macOSTests.swift; sourceTree = "<group>"; };
@@ -73,10 +73,10 @@
 		D284B1431F79081F00D94AF3 /* Info-watchOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
 		D500FD111C3AABED00782D78 /* Playground-iOS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-iOS.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D500FD121C3AAC8E00782D78 /* Playground-macOS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-macOS.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		D5B2E89F1C3A780C00C0327D /* SwiftPackage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftPackage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5B2E8A91C3A780C00C0327D /* SwiftPackage-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftPackage-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5C629401C3A7FAA007F7B7C /* SwiftPackage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftPackage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5C629491C3A7FAA007F7B7C /* SwiftPackage-macOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftPackage-macOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B2E89F1C3A780C00C0327D /* damus.swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = damus.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B2E8A91C3A780C00C0327D /* damus.swift-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "damus.swift-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C629401C3A7FAA007F7B7C /* damus.swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = damus.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C629491C3A7FAA007F7B7C /* damus.swift-macOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "damus.swift-macOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C629821C3A892A007F7B7C /* iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOS.swift; sourceTree = "<group>"; };
 		D5C629861C3A89A8007F7B7C /* Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D284B1051F79038B00D94AF3 /* SwiftPackage.framework in Frameworks */,
+				D284B1051F79038B00D94AF3 /* damus.swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5B2E8AA1C3A780C00C0327D /* SwiftPackage.framework in Frameworks */,
+				D5B2E8AA1C3A780C00C0327D /* damus.swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C6294A1C3A7FAA007F7B7C /* SwiftPackage.framework in Frameworks */,
+				D5C6294A1C3A7FAA007F7B7C /* damus.swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +211,7 @@
 				D500FD121C3AAC8E00782D78 /* Playground-macOS.playground */,
 				D284B13F1F79081F00D94AF3 /* Info */,
 				D5C629691C3A809D007F7B7C /* Sources */,
-				D5C6298F1C3A8BDA007F7B7C /* SwiftPackageTests */,
+				D5C6298F1C3A8BDA007F7B7C /* damus.swiftTests */,
 				D5B2E8A01C3A780C00C0327D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -219,13 +219,13 @@
 		D5B2E8A01C3A780C00C0327D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D5B2E89F1C3A780C00C0327D /* SwiftPackage.framework */,
-				D5B2E8A91C3A780C00C0327D /* SwiftPackage-iOS-Tests.xctest */,
-				D5C629401C3A7FAA007F7B7C /* SwiftPackage.framework */,
-				D5C629491C3A7FAA007F7B7C /* SwiftPackage-macOS-Tests.xctest */,
-				D284B0FC1F79038B00D94AF3 /* SwiftPackage.framework */,
-				D284B1041F79038B00D94AF3 /* SwiftPackage-tvOS-Tests.xctest */,
-				D284B1181F79039F00D94AF3 /* SwiftPackage.framework */,
+				D5B2E89F1C3A780C00C0327D /* damus.swift.framework */,
+				D5B2E8A91C3A780C00C0327D /* damus.swift-iOS-Tests.xctest */,
+				D5C629401C3A7FAA007F7B7C /* damus.swift.framework */,
+				D5C629491C3A7FAA007F7B7C /* damus.swift-macOS-Tests.xctest */,
+				D284B0FC1F79038B00D94AF3 /* damus.swift.framework */,
+				D284B1041F79038B00D94AF3 /* damus.swift-tvOS-Tests.xctest */,
+				D284B1181F79039F00D94AF3 /* damus.swift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -258,7 +258,7 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		D5C6298F1C3A8BDA007F7B7C /* SwiftPackageTests */ = {
+		D5C6298F1C3A8BDA007F7B7C /* damus.swiftTests */ = {
 			isa = PBXGroup;
 			children = (
 				D284B12F1F7906DA00D94AF3 /* Info-iOS-Tests.plist */,
@@ -269,7 +269,7 @@
 				D284B1311F7906DA00D94AF3 /* Shared */,
 				D284B1341F7906DA00D94AF3 /* tvOS */,
 			);
-			path = SwiftPackageTests;
+			path = damus.swiftTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,9 +306,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D284B0FB1F79038B00D94AF3 /* SwiftPackage-tvOS */ = {
+		D284B0FB1F79038B00D94AF3 /* damus.swift-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D284B10D1F79038B00D94AF3 /* Build configuration list for PBXNativeTarget "SwiftPackage-tvOS" */;
+			buildConfigurationList = D284B10D1F79038B00D94AF3 /* Build configuration list for PBXNativeTarget "damus.swift-tvOS" */;
 			buildPhases = (
 				D284B0F71F79038B00D94AF3 /* Sources */,
 				D284B0F81F79038B00D94AF3 /* Frameworks */,
@@ -319,14 +319,14 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftPackage-tvOS";
-			productName = "SwiftPackage-tvOS";
-			productReference = D284B0FC1F79038B00D94AF3 /* SwiftPackage.framework */;
+			name = "damus.swift-tvOS";
+			productName = "damus.swift-tvOS";
+			productReference = D284B0FC1F79038B00D94AF3 /* damus.swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D284B1031F79038B00D94AF3 /* SwiftPackage-tvOS-Tests */ = {
+		D284B1031F79038B00D94AF3 /* damus.swift-tvOS-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D284B1101F79038B00D94AF3 /* Build configuration list for PBXNativeTarget "SwiftPackage-tvOS-Tests" */;
+			buildConfigurationList = D284B1101F79038B00D94AF3 /* Build configuration list for PBXNativeTarget "damus.swift-tvOS-Tests" */;
 			buildPhases = (
 				D284B1001F79038B00D94AF3 /* Sources */,
 				D284B1011F79038B00D94AF3 /* Frameworks */,
@@ -337,14 +337,14 @@
 			dependencies = (
 				D284B1071F79038B00D94AF3 /* PBXTargetDependency */,
 			);
-			name = "SwiftPackage-tvOS-Tests";
-			productName = "SwiftPackage-tvOSTests";
-			productReference = D284B1041F79038B00D94AF3 /* SwiftPackage-tvOS-Tests.xctest */;
+			name = "damus.swift-tvOS-Tests";
+			productName = "damus.swift-tvOSTests";
+			productReference = D284B1041F79038B00D94AF3 /* damus.swift-tvOS-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D284B1171F79039F00D94AF3 /* SwiftPackage-watchOS */ = {
+		D284B1171F79039F00D94AF3 /* damus.swift-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D284B11D1F79039F00D94AF3 /* Build configuration list for PBXNativeTarget "SwiftPackage-watchOS" */;
+			buildConfigurationList = D284B11D1F79039F00D94AF3 /* Build configuration list for PBXNativeTarget "damus.swift-watchOS" */;
 			buildPhases = (
 				D284B1131F79039F00D94AF3 /* Sources */,
 				D284B1141F79039F00D94AF3 /* Frameworks */,
@@ -355,14 +355,14 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftPackage-watchOS";
-			productName = "SwiftPackage-watchOS";
-			productReference = D284B1181F79039F00D94AF3 /* SwiftPackage.framework */;
+			name = "damus.swift-watchOS";
+			productName = "damus.swift-watchOS";
+			productReference = D284B1181F79039F00D94AF3 /* damus.swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D5B2E89E1C3A780C00C0327D /* SwiftPackage-iOS */ = {
+		D5B2E89E1C3A780C00C0327D /* damus.swift-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5B2E8B31C3A780C00C0327D /* Build configuration list for PBXNativeTarget "SwiftPackage-iOS" */;
+			buildConfigurationList = D5B2E8B31C3A780C00C0327D /* Build configuration list for PBXNativeTarget "damus.swift-iOS" */;
 			buildPhases = (
 				D5B2E89A1C3A780C00C0327D /* Sources */,
 				D5B2E89B1C3A780C00C0327D /* Frameworks */,
@@ -373,14 +373,14 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftPackage-iOS";
-			productName = SwiftPackage;
-			productReference = D5B2E89F1C3A780C00C0327D /* SwiftPackage.framework */;
+			name = "damus.swift-iOS";
+			productName = damus.swift;
+			productReference = D5B2E89F1C3A780C00C0327D /* damus.swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D5B2E8A81C3A780C00C0327D /* SwiftPackage-iOS-Tests */ = {
+		D5B2E8A81C3A780C00C0327D /* damus.swift-iOS-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5B2E8B61C3A780C00C0327D /* Build configuration list for PBXNativeTarget "SwiftPackage-iOS-Tests" */;
+			buildConfigurationList = D5B2E8B61C3A780C00C0327D /* Build configuration list for PBXNativeTarget "damus.swift-iOS-Tests" */;
 			buildPhases = (
 				D5B2E8A51C3A780C00C0327D /* Sources */,
 				D5B2E8A61C3A780C00C0327D /* Frameworks */,
@@ -391,14 +391,14 @@
 			dependencies = (
 				D5B2E8AC1C3A780C00C0327D /* PBXTargetDependency */,
 			);
-			name = "SwiftPackage-iOS-Tests";
-			productName = SwiftPackageTests;
-			productReference = D5B2E8A91C3A780C00C0327D /* SwiftPackage-iOS-Tests.xctest */;
+			name = "damus.swift-iOS-Tests";
+			productName = damus.swiftTests;
+			productReference = D5B2E8A91C3A780C00C0327D /* damus.swift-iOS-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D5C6293F1C3A7FAA007F7B7C /* SwiftPackage-macOS */ = {
+		D5C6293F1C3A7FAA007F7B7C /* damus.swift-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5C629511C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "SwiftPackage-macOS" */;
+			buildConfigurationList = D5C629511C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "damus.swift-macOS" */;
 			buildPhases = (
 				D5C6293B1C3A7FAA007F7B7C /* Sources */,
 				D5C6293C1C3A7FAA007F7B7C /* Frameworks */,
@@ -409,14 +409,14 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftPackage-macOS";
-			productName = "SwiftPackage-Mac";
-			productReference = D5C629401C3A7FAA007F7B7C /* SwiftPackage.framework */;
+			name = "damus.swift-macOS";
+			productName = "damus.swift-Mac";
+			productReference = D5C629401C3A7FAA007F7B7C /* damus.swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D5C629481C3A7FAA007F7B7C /* SwiftPackage-macOS-Tests */ = {
+		D5C629481C3A7FAA007F7B7C /* damus.swift-macOS-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5C629541C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "SwiftPackage-macOS-Tests" */;
+			buildConfigurationList = D5C629541C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "damus.swift-macOS-Tests" */;
 			buildPhases = (
 				D5C629451C3A7FAA007F7B7C /* Sources */,
 				D5C629461C3A7FAA007F7B7C /* Frameworks */,
@@ -427,9 +427,9 @@
 			dependencies = (
 				D5C6294C1C3A7FAA007F7B7C /* PBXTargetDependency */,
 			);
-			name = "SwiftPackage-macOS-Tests";
-			productName = "SwiftPackage-MacTests";
-			productReference = D5C629491C3A7FAA007F7B7C /* SwiftPackage-macOS-Tests.xctest */;
+			name = "damus.swift-macOS-Tests";
+			productName = "damus.swift-MacTests";
+			productReference = D5C629491C3A7FAA007F7B7C /* damus.swift-macOS-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -440,7 +440,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = "<AUTHOR_NAME>";
+				ORGANIZATIONNAME = "randymcmillan";
 				TargetAttributes = {
 					D284B0FB1F79038B00D94AF3 = {
 						CreatedOnToolsVersion = 9.0;
@@ -473,7 +473,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D5B2E8991C3A780C00C0327D /* Build configuration list for PBXProject "SwiftPackage" */;
+			buildConfigurationList = D5B2E8991C3A780C00C0327D /* Build configuration list for PBXProject "damus.swift" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -485,13 +485,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D5B2E89E1C3A780C00C0327D /* SwiftPackage-iOS */,
-				D5B2E8A81C3A780C00C0327D /* SwiftPackage-iOS-Tests */,
-				D5C6293F1C3A7FAA007F7B7C /* SwiftPackage-macOS */,
-				D5C629481C3A7FAA007F7B7C /* SwiftPackage-macOS-Tests */,
-				D284B0FB1F79038B00D94AF3 /* SwiftPackage-tvOS */,
-				D284B1031F79038B00D94AF3 /* SwiftPackage-tvOS-Tests */,
-				D284B1171F79039F00D94AF3 /* SwiftPackage-watchOS */,
+				D5B2E89E1C3A780C00C0327D /* damus.swift-iOS */,
+				D5B2E8A81C3A780C00C0327D /* damus.swift-iOS-Tests */,
+				D5C6293F1C3A7FAA007F7B7C /* damus.swift-macOS */,
+				D5C629481C3A7FAA007F7B7C /* damus.swift-macOS-Tests */,
+				D284B0FB1F79038B00D94AF3 /* damus.swift-tvOS */,
+				D284B1031F79038B00D94AF3 /* damus.swift-tvOS-Tests */,
+				D284B1171F79039F00D94AF3 /* damus.swift-watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -620,17 +620,17 @@
 /* Begin PBXTargetDependency section */
 		D284B1071F79038B00D94AF3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D284B0FB1F79038B00D94AF3 /* SwiftPackage-tvOS */;
+			target = D284B0FB1F79038B00D94AF3 /* damus.swift-tvOS */;
 			targetProxy = D284B1061F79038B00D94AF3 /* PBXContainerItemProxy */;
 		};
 		D5B2E8AC1C3A780C00C0327D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D5B2E89E1C3A780C00C0327D /* SwiftPackage-iOS */;
+			target = D5B2E89E1C3A780C00C0327D /* damus.swift-iOS */;
 			targetProxy = D5B2E8AB1C3A780C00C0327D /* PBXContainerItemProxy */;
 		};
 		D5C6294C1C3A7FAA007F7B7C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D5C6293F1C3A7FAA007F7B7C /* SwiftPackage-macOS */;
+			target = D5C6293F1C3A7FAA007F7B7C /* damus.swift-macOS */;
 			targetProxy = D5C6294B1C3A7FAA007F7B7C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -655,8 +655,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.SwiftPackage-tvOS";
-				PRODUCT_NAME = SwiftPackage;
+				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.damus.swift-tvOS";
+				PRODUCT_NAME = damus.swift;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -686,8 +686,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.SwiftPackage-tvOS";
-				PRODUCT_NAME = SwiftPackage;
+				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.damus.swift-tvOS";
+				PRODUCT_NAME = damus.swift;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -708,9 +708,9 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftPackageTests/Info-tvOS-Tests.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/damus.swiftTests/Info-tvOS-Tests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.SwiftPackage-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.damus.swift-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -733,9 +733,9 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftPackageTests/Info-tvOS-Tests.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/damus.swiftTests/Info-tvOS-Tests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.SwiftPackage-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.damus.swift-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 4.0;
@@ -764,8 +764,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info/Info-watchOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.SwiftPackage-watchOS";
-				PRODUCT_NAME = SwiftPackage;
+				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.damus.swift-watchOS";
+				PRODUCT_NAME = damus.swift;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -796,8 +796,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info/Info-watchOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.SwiftPackage-watchOS";
-				PRODUCT_NAME = SwiftPackage;
+				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.damus.swift-watchOS";
+				PRODUCT_NAME = damus.swift;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -927,8 +927,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "BundleDomain.SwiftPackage-iOS";
-				PRODUCT_NAME = SwiftPackage;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.vinux.damus.damus.swift-iOS";
+				PRODUCT_NAME = damus.swift;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -948,8 +948,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "BundleDomain.SwiftPackage-iOS";
-				PRODUCT_NAME = SwiftPackage;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.vinux.damus.damus.swift-iOS";
+				PRODUCT_NAME = damus.swift;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 			};
@@ -963,9 +963,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftPackageTests/Info-iOS-Tests.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/damus.swiftTests/Info-iOS-Tests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
-				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.SwiftPackageTests;
+				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.damus.swiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -980,9 +980,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftPackageTests/Info-iOS-Tests.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/damus.swiftTests/Info-iOS-Tests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
-				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.SwiftPackageTests;
+				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.damus.swiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -1003,8 +1003,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "BundleDomain.SwiftPackage-macOS";
-				PRODUCT_NAME = SwiftPackage;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.vinux.damus.damus.swift-macOS";
+				PRODUCT_NAME = damus.swift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1026,8 +1026,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "BundleDomain.SwiftPackage-macOS";
-				PRODUCT_NAME = SwiftPackage;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.vinux.damus.damus.swift-macOS";
+				PRODUCT_NAME = damus.swift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -1042,10 +1042,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftPackageTests/Info-macOS-Tests.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/damus.swiftTests/Info-macOS-Tests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.SwiftPackage-MacTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.damus.swift-MacTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -1060,10 +1060,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftPackageTests/Info-macOS-Tests.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/damus.swiftTests/Info-macOS-Tests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.SwiftPackage-MacTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.damus.swift-MacTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -1072,7 +1072,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D284B10D1F79038B00D94AF3 /* Build configuration list for PBXNativeTarget "SwiftPackage-tvOS" */ = {
+		D284B10D1F79038B00D94AF3 /* Build configuration list for PBXNativeTarget "damus.swift-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D284B10E1F79038B00D94AF3 /* Debug */,
@@ -1081,7 +1081,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D284B1101F79038B00D94AF3 /* Build configuration list for PBXNativeTarget "SwiftPackage-tvOS-Tests" */ = {
+		D284B1101F79038B00D94AF3 /* Build configuration list for PBXNativeTarget "damus.swift-tvOS-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D284B1111F79038B00D94AF3 /* Debug */,
@@ -1090,7 +1090,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D284B11D1F79039F00D94AF3 /* Build configuration list for PBXNativeTarget "SwiftPackage-watchOS" */ = {
+		D284B11D1F79039F00D94AF3 /* Build configuration list for PBXNativeTarget "damus.swift-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D284B11E1F79039F00D94AF3 /* Debug */,
@@ -1099,7 +1099,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5B2E8991C3A780C00C0327D /* Build configuration list for PBXProject "SwiftPackage" */ = {
+		D5B2E8991C3A780C00C0327D /* Build configuration list for PBXProject "damus.swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5B2E8B11C3A780C00C0327D /* Debug */,
@@ -1108,7 +1108,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5B2E8B31C3A780C00C0327D /* Build configuration list for PBXNativeTarget "SwiftPackage-iOS" */ = {
+		D5B2E8B31C3A780C00C0327D /* Build configuration list for PBXNativeTarget "damus.swift-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5B2E8B41C3A780C00C0327D /* Debug */,
@@ -1117,7 +1117,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5B2E8B61C3A780C00C0327D /* Build configuration list for PBXNativeTarget "SwiftPackage-iOS-Tests" */ = {
+		D5B2E8B61C3A780C00C0327D /* Build configuration list for PBXNativeTarget "damus.swift-iOS-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5B2E8B71C3A780C00C0327D /* Debug */,
@@ -1126,7 +1126,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5C629511C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "SwiftPackage-macOS" */ = {
+		D5C629511C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "damus.swift-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5C629521C3A7FAA007F7B7C /* Debug */,
@@ -1135,7 +1135,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5C629541C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "SwiftPackage-macOS-Tests" */ = {
+		D5C629541C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "damus.swift-macOS-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D5C629551C3A7FAA007F7B7C /* Debug */,

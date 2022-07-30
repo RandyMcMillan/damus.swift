@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D284B1171F79039F00D94AF3"
-               BuildableName = "SwiftPackage_watchOS.framework"
-               BlueprintName = "SwiftPackage-watchOS"
-               ReferencedContainer = "container:SwiftPackage.xcodeproj">
+               BuildableName = "damus.swift_watchOS.framework"
+               BlueprintName = "damus.swift-watchOS"
+               ReferencedContainer = "container:damus.swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,9 +48,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D284B1171F79039F00D94AF3"
-            BuildableName = "SwiftPackage_watchOS.framework"
-            BlueprintName = "SwiftPackage-watchOS"
-            ReferencedContainer = "container:SwiftPackage.xcodeproj">
+            BuildableName = "damus.swift_watchOS.framework"
+            BlueprintName = "damus.swift-watchOS"
+            ReferencedContainer = "container:damus.swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D284B1171F79039F00D94AF3"
-            BuildableName = "SwiftPackage_watchOS.framework"
-            BlueprintName = "SwiftPackage-watchOS"
-            ReferencedContainer = "container:SwiftPackage.xcodeproj">
+            BuildableName = "damus.swift_watchOS.framework"
+            BlueprintName = "damus.swift-watchOS"
+            ReferencedContainer = "container:damus.swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

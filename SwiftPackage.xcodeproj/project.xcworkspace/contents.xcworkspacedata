@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SwiftPackage.xcodeproj">
+      location = "self:damus.swift.xcodeproj">
    </FileRef>
 </Workspace>

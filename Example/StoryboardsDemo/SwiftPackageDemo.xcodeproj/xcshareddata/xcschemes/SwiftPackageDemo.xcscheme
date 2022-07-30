@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D5C7F7661C3BCF14008CDDBA"
-               BuildableName = "SwiftPackageDemo.app"
-               BlueprintName = "SwiftPackageDemo"
-               ReferencedContainer = "container:SwiftPackageDemo.xcodeproj">
+               BuildableName = "damus.swiftDemo.app"
+               BlueprintName = "damus.swiftDemo"
+               ReferencedContainer = "container:damus.swiftDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D5C7F7661C3BCF14008CDDBA"
-            BuildableName = "SwiftPackageDemo.app"
-            BlueprintName = "SwiftPackageDemo"
-            ReferencedContainer = "container:SwiftPackageDemo.xcodeproj">
+            BuildableName = "damus.swiftDemo.app"
+            BlueprintName = "damus.swiftDemo"
+            ReferencedContainer = "container:damus.swiftDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,9 +58,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D5C7F7661C3BCF14008CDDBA"
-            BuildableName = "SwiftPackageDemo.app"
-            BlueprintName = "SwiftPackageDemo"
-            ReferencedContainer = "container:SwiftPackageDemo.xcodeproj">
+            BuildableName = "damus.swiftDemo.app"
+            BlueprintName = "damus.swiftDemo"
+            ReferencedContainer = "container:damus.swiftDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -84,9 +84,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D5C7F7661C3BCF14008CDDBA"
-            BuildableName = "SwiftPackageDemo.app"
-            BlueprintName = "SwiftPackageDemo"
-            ReferencedContainer = "container:SwiftPackageDemo.xcodeproj">
+            BuildableName = "damus.swiftDemo.app"
+            BlueprintName = "damus.swiftDemo"
+            ReferencedContainer = "container:damus.swiftDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

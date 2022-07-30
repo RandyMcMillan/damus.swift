@@ -1,5 +1,5 @@
 import UIKit
-import SwiftPackage
+import damus.swift
 
 class ViewController: UIViewController {
 

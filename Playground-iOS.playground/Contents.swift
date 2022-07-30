@@ -1,6 +1,6 @@
-// SwiftPackage iOS Playground
+// damus.swift iOS Playground
 
 import UIKit
-import SwiftPackage
+import damus.swift
 
 var str = "Hello, playground"

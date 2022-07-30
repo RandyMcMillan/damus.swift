@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D284B0FB1F79038B00D94AF3"
-               BuildableName = "SwiftPackage_tvOS.framework"
-               BlueprintName = "SwiftPackage-tvOS"
-               ReferencedContainer = "container:SwiftPackage.xcodeproj">
+               BuildableName = "damus.swift_tvOS.framework"
+               BlueprintName = "damus.swift-tvOS"
+               ReferencedContainer = "container:damus.swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D284B1031F79038B00D94AF3"
-               BuildableName = "SwiftPackage-tvOS-Tests.xctest"
-               BlueprintName = "SwiftPackage-tvOS-Tests"
-               ReferencedContainer = "container:SwiftPackage.xcodeproj">
+               BuildableName = "damus.swift-tvOS-Tests.xctest"
+               BlueprintName = "damus.swift-tvOS-Tests"
+               ReferencedContainer = "container:damus.swift.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D284B0FB1F79038B00D94AF3"
-            BuildableName = "SwiftPackage_tvOS.framework"
-            BlueprintName = "SwiftPackage-tvOS"
-            ReferencedContainer = "container:SwiftPackage.xcodeproj">
+            BuildableName = "damus.swift_tvOS.framework"
+            BlueprintName = "damus.swift-tvOS"
+            ReferencedContainer = "container:damus.swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -67,9 +67,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D284B0FB1F79038B00D94AF3"
-            BuildableName = "SwiftPackage_tvOS.framework"
-            BlueprintName = "SwiftPackage-tvOS"
-            ReferencedContainer = "container:SwiftPackage.xcodeproj">
+            BuildableName = "damus.swift_tvOS.framework"
+            BlueprintName = "damus.swift-tvOS"
+            ReferencedContainer = "container:damus.swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D284B0FB1F79038B00D94AF3"
-            BuildableName = "SwiftPackage_tvOS.framework"
-            BlueprintName = "SwiftPackage-tvOS"
-            ReferencedContainer = "container:SwiftPackage.xcodeproj">
+            BuildableName = "damus.swift_tvOS.framework"
+            BlueprintName = "damus.swift-tvOS"
+            ReferencedContainer = "container:damus.swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
