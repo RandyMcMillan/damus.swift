@@ -30,8 +30,15 @@
             .target(
                 name: "ContentView.swift",
                 dependencies: [
-                
-                
+
+
+                ]
+            ),
+            .target(
+                name: "Componants/TextFieldAlert.swift",
+                dependencies: [
+
+
                 ]
             )
             //,
